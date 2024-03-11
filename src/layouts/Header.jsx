@@ -3,7 +3,7 @@ import React from "react";
 export const Header = () => {
   return (
     <>
-      <nav className="bg-yellow-00 dark:bg-gray-900  w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+      <nav className="bg-yellow-00 dark:bg-gray-900 z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600 fixed bg-white w-[100vw]">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto ">
           <div className="flex items-center space-x-3 rtl:space-x-reverse">
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
@@ -52,22 +52,22 @@ export const Header = () => {
                   className="block py-2 px-3 text-gray-900 bg-yellow-700 rounded md:bg-transparent md:text-yellow-700 md:p-0 md:dark:text-yellow-500"
                   aria-current="page"
                 >
-                  Home
+                  <a href="#home" className="no-underline text-black">Home</a>
                 </div>
               </li>
               <li>
                 <div className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-yellow-700 md:p-0 md:dark:hover:text-yellow-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-                  Skills
+                  <a href="#skills" className="no-underline text-black">Skills</a>
                 </div>
               </li>
               <li>
                 <div className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-yellow-700 md:p-0 md:dark:hover:text-yellow-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-                  Projects
+                  <a href="#Projects" className="no-underline text-black">Projects</a>
                 </div>
               </li>
               <li>
                 <div className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-yellow-700 md:p-0 md:dark:hover:text-yellow-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-                  Contact
+                  <a href="#Contact" className="no-underline text-black">Contact</a>
                 </div>
               </li>
             </ul>

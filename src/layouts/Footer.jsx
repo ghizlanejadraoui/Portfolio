@@ -61,7 +61,7 @@ export const Footer = () => {
                         </div>
                     </div>
                     <div className="px-4 py-6  dark:bg-gray-700 flex justify-center ">
-                        <span className="text-sm text-white/90 dark:text-gray-300 sm:text-center">Copyright © 2022 Shopify Theme Developed by MassTechnologist All rights reserved.
+                        <span className="text-sm text-white/90 dark:text-gray-300 sm:text-center">Copyright © 2024 by <b>Ghizlane Jadraoui</b> All rights reserved.
                         </span>
                     </div>
                 </div>
